@@ -1,0 +1,6 @@
+# First partiton - 1G [fat32] {/mnt/boot}
+, 1G, U
+# Second partiton - 8G [swap] {swap}
+, 8G, S
+# Third partiton - rest of the disk [btrfs] {/mnt}
+, , L
