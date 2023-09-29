@@ -1,0 +1,7 @@
+# NOTE!
+# It's important to place root subvolume (@) on the top of the list.
+#subvolume | mountpoint | options
+@, /mnt, noatime,compress=lzo,space_cache=v2,
+@home, /mnt/home, noatime,compress=lzo,space_cache=v2
+@snapshots, /mnt/.snapshots, noatime,compress=lzo,space_cache=v2,
+@varlog, /mnt/varlog, noatime,compress=lzo,space_cache=v2,
